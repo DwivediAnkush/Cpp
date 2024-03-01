@@ -1,0 +1,23 @@
+1)C++ invented by Bjarne Stroustrup.
+2)C++ is fast programming language, more control over system resources + memory management
+3)High Performance
+4)Major updates in 2011,2014,2017.
+
+Basic structure of c++ program:- 
+
+#include<iostream>        // iostream~input, output,header file
+using namespace std;
+int main(){
+    cout<<"Hello World";
+    return 0;
+    }
+      
+
+Low level--- Hardware ke paas
+High level--- Hardware ke nazdeek C++
+
+:- Variables/ containers to store datatypes.
+    'c'- char, int- 1,-1,0, float- -0.12,.23 etc.
+:- Comment(//) or /**/
+
+

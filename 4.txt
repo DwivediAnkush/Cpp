@@ -1,0 +1,47 @@
+1. **Declaration:**
+   - `int ctr = 0;`: The counter variable `ctr` is declared as an integer and initialized to 0.
+2. **Purpose:**
+   - The purpose of the counter variable is to keep track of the number of factors of the input number.
+3. **Initialization:**
+   - It's initialized to 0 before the loop begins, indicating that no factors have been found at the start.
+4. **Increment:**
+   - Inside the loop, `ctr` is incremented whenever the loop finds a factor of the input number.
+5. **Counting Factors:**
+   - If `ctr` equals 2 after the loop, it means that the input number is only divisible by 1 and itself. This is a characteristic of prime numbers.
+6. **Conditional Check:**
+   - The condition `(ctr == 2)` is used to check whether the input number has exactly two factors, which is a key criterion for being a prime number.
+7. **Output Decision:**
+   - In the program, the value of `ctr` is checked after the loop, and if it equals 2, the program concludes that the entered number is a prime number.
+8. **Usage in Logic:**
+   - `ctr` serves as a simple flag or indicator for the prime-checking logic in the program. Its value is crucial in determining the primality of the input number.
+9. **Scope:**
+   - The scope of the counter variable is limited to the `main` function in this program. It is not used outside of this function.
+10. **Reset for Each Input:**
+    - The counter is reset to 0 for each new input number, ensuring that it starts counting factors from scratch for each number entered by the user.
+
+    code for prime number.
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num1, ctr = 0;
+    cout << "\n\n Check whether a number is prime or not:\n";
+	cout << "--------------------------------------------\n";
+	cout << " Input a number to check prime or not: ";
+	cin>> num1;	
+    for (int a = 1; a <= num1; a++) 
+    {
+        if (num1 % a == 0) 
+        {
+            ctr++;
+        }
+    }
+    if (ctr == 2) 
+    {
+        cout << " The entered number is a prime number. \n";
+    }
+    else {
+        cout << " The number you entered is not a prime number. \n";
+    }
+}

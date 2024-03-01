@@ -1,0 +1,32 @@
+:-forms of variables
+1) int- -1,0,8,7
+2)float-decimal values
+3)char- 'c','d','h'
+4)double-1.26597687879......
+5)Boolean- true or false
+
+example :- int sum=366;
+int a=78,b=9
+
+:-scope of variables :- global and local variables.
+
+ques :- Can global and local variables name same in C++?  yes
+
+:-Data types
+Data types define the type of data a variable can hold, for example an integer value , character value etc.
+categorised in three groups; Built in, user defined, derived.
+
+Built in data types -- char, float etc.
+user defined-- struct,union,enum
+derived-- array, functions and pointers.
+
+:- Rules to declare variable in C++
+1)range of variables be 1 to 255 characters.
+2)variable name smust be started from an alphabet or an underscore.
+3)after the first initial letter, variable names can also contain letters and numbers.
+4)variable names are case sensitive
+5)No space or special chracters are allowed.
+6)Cannot use a special or reserved keyword in C++.
+
+
+

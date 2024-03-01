@@ -1,0 +1,8 @@
+Title  -- basic input and output in C++.
+
+1) C++ comes with libraries which helps us in performing input and output. In C++ sequence of bytes corresponding to input and output commonly known as stream.
+
+2) Input stream:- Direction of flow of bytes takes place from input device eg-keyboard.
+
+3)Output stream:- main memory from output device. eg- dispay.
+
